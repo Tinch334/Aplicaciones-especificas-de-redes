@@ -1,8 +1,14 @@
 body {
     overflow-x: hidden;
     background-color: #142d4c;
+    color:black;
 }
 
+
+.dark-theme {
+    background-color: #142d4c;
+    color:black;
+}
 
 /*Vibra la imagen del poli*/
 #imgHead:hover {
@@ -30,6 +36,14 @@ div.logo {
     text-align: center;
     min-height: 100%; /* Set to minimum height so overflow doesn't get hidden */
     overflow-y: hidden;
+    background-color: #385170;
+}
+
+.white-logo {
+    background-color: #b9c0c9;
+}
+
+.dark-logo {
     background-color: #385170;
 }
 
@@ -80,3 +94,18 @@ td:nth-child(even){
     margin-left: auto;
     margin-right: auto;
 }
+
+.white-theme{
+    background-color: white;
+    color:black;
+}
+
+.dark-light-switch{
+    float:left;
+    background-image: url("icons/light_mode_icon.svg");
+    background-size:contain;
+    height: 40px;
+    width: 40px;
+    border-radius: 20%;
+}
+
