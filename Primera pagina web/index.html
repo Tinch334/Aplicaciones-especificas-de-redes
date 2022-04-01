@@ -6,18 +6,23 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="style.css">
 
+    <script type="text/javascript" src="scripts/theme.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body>
-    <div class="logo">
+    <div class="logo" id="pito">
+        <button class="dark-light-switch" id="dark-light-switch" onClick="switchTheme()"></button>
+
         <span class="textoHead">Actividad 1 - Introducción al formateo CSS</span>
+        
         <a href="https://www.ips.edu.ar/">
             <img id="imgHead" src="imgs/logo_poli.ico">
         </a>
     </div>
-    
+
     <div class="w3-container">
         <table class="tablaPersonas" id="aaaa">
             <tr class="etiquetasTabla">
@@ -52,9 +57,9 @@
                 <td>Papers please</td>
                 <td><img class="imgTabla" src="imgs/santifoto.jpg" alt="imagen representativa"></td>
               </tr>
-            
-            
+              <span class="mdi F1828"></span>
         </table>
     </div>
+
 </body>
 </html>
