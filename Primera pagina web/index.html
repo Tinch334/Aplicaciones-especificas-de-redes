@@ -13,37 +13,48 @@
 <body>
     <div class="logo">
         <span class="textoHead">Actividad 1 - Introducción al formateo CSS</span>
-        <img src="imgs/logo_poli.ico">
+        <a href="https://www.ips.edu.ar/">
+            <img id="imgHead" src="imgs/logo_poli.ico" alt="https://www.ips.edu.ar/">
+        </a>
     </div>
     
-    <table border="1" class="center">
-        <tr>
-            <td width=30%>Nombre completo</td>
-            <td width=5%>Edad</td>
-            <td width=35%>Email</td>
-            <td width=30%>DNI</td>
-        </tr>
-        <tr>
-            <td>Juan Ignacio Bertoni</td>
-            <td>18</td>
-            <td>juani.bertoni74@gmail.com</td>
-            <td>tukituki</td>
-            <td><img id="imgTabla" src="imgs/bertonifoto.jpg" width="50" height="50"/></td>
-        </tr>
-        <tr>
-            <td>Martin Goñi</td>
-            <td>18</td>
-            <td>screadores122@gmail.com</td>
-            <td>45412569</td>
-            <td><img img id="imgTabla" src="imgs/goñifoto.jpg" width="50" height="50"/></td>
-        </tr>
-        <tr>
-            <td>Santino Zanin</td>
-            <td>18</td>
-            <td>zaninsantino@gmail.com</td>
-            <td>45412822</td>
-            <td><img img id="imgTabla" src="imgs/santifoto.jpg" width="50" height="50"/></td>
-        </tr>
-    </table>
+    <div class="w3-container">
+        <table class="tablaPersonas" id="aaaa">
+            <tr class="etiquetasTabla">
+                <th width=25%>Nombre completo</th>
+                <th width=5%>Edad</th>
+                <th width=25%>Email</th>
+                <th width=15%>DNI</th>
+                <th width=20%>Juego favorito</th>
+                <th width=10%>Imagen</th>
+            </tr>
+            <tr class="table-content">
+                <td>Juan Ignacio Bertoni</td>
+                <td>18</td>
+                <td>juani.bertoni73@gmail.com</td>
+                <td>45638749</td>
+                <td>DOOM 64</td>
+                <td><img class="imgTabla" src="imgs/bertonifoto.jpg" alt="imagen representativa"></td>
+            </tr>
+            <tr>
+                <td>Martín goñi</td>
+                <td>18</td>
+                <td>screadores122@gmail.com</td>
+                <td>45412569</td>
+                <td>Rimworld</td>
+                <td><img class="imgTabla" src="imgs/goñifoto.jpg" alt ="imagen representativa"></td>
+            </tr>
+            <tr>
+                <td>Santino Zanin</td>
+                <td>18</td>
+                <td>zaninsantino@gmail.com</td>
+                <td>45412822</td>
+                <td>Papers please</td>
+                <td><img class="imgTabla" src="imgs/santifoto.jpg" alt="imagen representativa"></td>
+              </tr>
+            
+            
+        </table>
+    </div>
 </body>
 </html>
