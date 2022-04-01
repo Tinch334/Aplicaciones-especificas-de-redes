@@ -26,23 +26,31 @@ img:hover {
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 
-.log div {
-    margin-left: auto;
-    margin-right: auto;
+
+div.logo {
+    text-align: center;
+    min-height: 100%; /* Set to minimum height so overflow doesn't get hidden */
+    overflow-y: hidden;
+    background-color: #385170;
 }
+
 .logo img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 7%;
-    height: auto;
+    float: right;
+    width: 5%;
+    height: 5%;
+}
+
+.textoHead {
+    color: #fbf2d5;
+    font-size: 200%;
+    position: 100%;
 }
 
 #imgTabla {
     border-radius: 10%;
 }
 
-
+/*Table config*/
 table, th, td{
     table-layout: fixed;
     background-color: #e7eaf6;
@@ -51,12 +59,14 @@ table, th, td{
 }
 
 table {
+    margin-top: 2%;
     width: 50%;
 }
 
 td {
     text-align: center;
     height: 5px;
+    font-size: 115%;
 }
 
 tr {
