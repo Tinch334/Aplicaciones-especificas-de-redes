@@ -1,7 +1,6 @@
 body {
     background-color: #142d4c;
     color:black;
-    box-sizing: content-box;
 }
 
 
@@ -80,7 +79,7 @@ body {
     background-size: cover;
     border-radius: 20%;
     height: 60px;
-    width: 50px;
+    width: 60px;
 }
 
 .dark-light-switch-c-dark {
