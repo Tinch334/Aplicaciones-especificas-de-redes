@@ -1,17 +1,11 @@
 body {
-    overflow-x: hidden;
     background-color: #142d4c;
     color:black;
     box-sizing: content-box;
 }
 
 
-.dark-theme {
-    background-color: #142d4c;
-    color:black;
-}
-
-/*Vibra la imagen del poli*/
+/*Shakes school image*/
 #imgHead:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
@@ -33,14 +27,35 @@ body {
 
 
 /*Header*/
-div.logo {
+.logo {
     display: flex;
     flex-wrap: nowrap;
-    flex-shrink: 3;
     justify-content: space-between;
     align-items: center;
 }
 
+.textoHead {
+    text-align: center;
+}
+
+.logo a{
+    margin-left: 1em;
+    margin-right: 0.2em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.color-theme-div {
+    margin-right: 1em;
+    padding-left: 1vh;
+}
+
+/*Light and dark mode*/
 .white-logo {
     background-color: #b9c0c9;
 }
@@ -49,38 +64,48 @@ div.logo {
     background-color: #385170;
 }
 
-.logo img {
-    width: 14vh;
-    height: 14vh;
+.dark-theme {
+    background-color: #142d4c;
+    color:black;
 }
 
-.textoHead {
-    color: #fbf2d5;
-    font-size: 4vh;
-}
 
-.darkModeDiv {
-    align-self: stretch;
-    padding-left: 1vh;
-    padding-top: 1vh;
+.white-theme{
+    background-color: #ffffff;
+    color:black;
 }
 
 
 .dark-light-switch{
-    background-image: url("icons/light_mode_icon.svg");
     background-size: cover;
     border-radius: 20%;
-    height: 6.5vh;
-    width: 5vh;
+    height: 50px;
+    width: 50px;
+}
+
+.img-head:hover {
+    filter:grayscale(100%);
 }
 
 
 /*Tabla*/
-.tablaPersonas td {
+.tabla-personas {
+    border-collapse: collapse;
+    margin-top: 2%;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabla-personas td, th {
+    border: 3px solid black;
+}
+
+.tabla-personas td {
     text-align: center;
 }
 
-.etiquetasTabla {
+.etiquetas-tabla {
     background-color: #04AA6D;
 }
 
@@ -92,23 +117,11 @@ td:nth-child(even){
     background-color: #ddd;
 }
 
-.imgTabla {
+.img-tabla {
     width:100%;
     height:auto;
 }
 
-.imgTabla:hover {
+.img-tabla:hover {
     filter:grayscale(100%);
-}
-
-.tablaPersonas {
-    margin-top: 2%;
-    width:50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.white-theme{
-    background-color: white;
-    color:black;
 }
