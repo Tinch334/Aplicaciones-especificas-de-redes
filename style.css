@@ -6,7 +6,7 @@ body {
 
 
 /*Shakes school image*/
-#imgHead:hover {
+#img-head:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
   }
@@ -76,11 +76,21 @@ body {
 }
 
 
-.dark-light-switch{
+.dark-light-switch-c{
     background-size: cover;
     border-radius: 20%;
-    height: 50px;
+    height: 60px;
     width: 50px;
+}
+
+.dark-light-switch-c-dark {
+    filter: invert(0%);
+    background-image: url('icons/light_mode_icon.svg');
+}
+
+.dark-light-switch-c-white {
+    filter: invert(80%);
+    background-image: url('icons/dark_mode_icon.svg');
 }
 
 
