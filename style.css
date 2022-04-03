@@ -83,11 +83,21 @@ body {
 }
 
 .dark-light-switch-c-dark {
-    filter: invert(0%);
+    background-image: url('icons/light_mode_icon.svg');
+}
+
+
+.dark-light-switch-c-dark:hover {
+    filter: invert(80%);
     background-image: url('icons/light_mode_icon.svg');
 }
 
 .dark-light-switch-c-white {
+    filter: invert(0%);
+    background-image: url('icons/dark_mode_icon.svg');
+}
+
+.dark-light-switch-c-white:hover {
     filter: invert(80%);
     background-image: url('icons/dark_mode_icon.svg');
 }
